@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+
+body {
+  font-family: "Fira Code", monospace;
+  margin: 0px; padding: 0px;
+  background-color: rgb(52, 71, 101);
+  overflow: hidden;
+}
+
+#controlpanel {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  left: 10px;
+  top: 10px;
+  color: white;
+
+  font-size: 14px;
+}
+
+#buttonsyay {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  right: 10px;
+  top: 10px;
+  color: white;
+
+  font-size: 14px;
+}
+
+#buttondbg {
+  display: block;
+  position: fixed;
+  z-index: 2;
+  right: 160px;
+  top: 10px;
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  cursor: pointer;
+  color: rgb(69, 111, 5);
+}
+#buttondbg:hover{
+  top: 11px;
+}
+
+p {
+  display: inline;
+}
+
